@@ -11,7 +11,7 @@ st.title("نظام التنبؤ بأسعار القهوة")
 st.sidebar.header("خيارات")
 
 # تحميل البيانات
-file_path = r'C:\Users\Sec\Documents\CoffeePricePredictor\M.xlsx'
+file_path = r'M.xlsx'
 data = pd.read_excel(file_path)
 
 # تنظيف البيانات
